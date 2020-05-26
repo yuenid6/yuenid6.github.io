@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hexo博客在域名解析上的问题</title>
-    <url>/2020/05/26/hexoblogjiexiyuming/</url>
-    <content><![CDATA[<p>在这个问题上我卡了挺久的1.5Days起码，现在网上了教程都是ping你的二级域名ip然后解析<br>我开始也是照着做了，但是有一个问题： IP在变化<br><img src="/img/1.png" alt="图片丢失啦！"><br>如图的IP添加解析的话会出现找不到服务器IP的提示<br>解决方法：<br><img src="/img/2.png" alt="图片丢失啦！"><br>如上图我们只需要添加两条官方提供的IP解析即可<br>原理：<br>我怎么知道啊喂！！！！</p>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>web</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>32位系统如何安装Vmware虚拟机</title>
     <url>/2020/05/25/32vmware/</url>
     <content><![CDATA[<p>现在的vm虚拟机都需要64位系统了毕竟现在的虚拟机动不动就6G，8G而32位系统只支持4G<br>那么32位的朋友该怎么办？<br>我们可以下载vm10，因为这是支持32位远古版本的最新版<br>链接：<a href="https://pan.baidu.com/s/198W4FqG0L5oEFn6jEXArwA" target="_blank" rel="noopener">https://pan.baidu.com/s/198W4FqG0L5oEFn6jEXArwA</a><br>提取码：303n<br>正常安装就可以了<br>附密钥:<br>5F29M-48312-8ZDF9-A8A5K-2AM0Z<br>MA491-6NL5Q-AZAM0-ZH0N2-AAJ5A<br>5A6F6-88247-XZH59-HL0Q6-8CD2V<br>HF6QX-20187-2Z391-522NH-9AELT<br>MA491-6NL5Q-AZAM0-ZH0N2-AAJ5A</p>
@@ -22,6 +10,18 @@
       </categories>
       <tags>
         <tag>vmware</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo博客在域名解析上的问题</title>
+    <url>/2020/05/26/hexoblogjiexiyuming/</url>
+    <content><![CDATA[<p>在这个问题上我卡了挺久的1.5Days起码，现在网上了教程都是ping你的二级域名ip然后解析<br>我开始也是照着做了，但是有一个问题： IP在变化<br><img src="/img/1.png" alt="图片丢失啦！"><br>如图的IP添加解析的话会出现找不到服务器IP的提示<br>解决方法：<br><img src="/img/2.png" alt="图片丢失啦！"><br>如上图我们只需要添加两条官方提供的IP解析即可<br>原理：<br>我怎么知道啊喂！！！！</p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
       </tags>
   </entry>
   <entry>
