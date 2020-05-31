@@ -64,7 +64,7 @@
 
         </div>
         <div class="content markdown">
-            <p>在这个问题上我卡了挺久的1.5Days起码，现在网上了教程都是ping你的二级域名ip然后解析<br>我开始也是照着做了，但是有一个问题： IP在变化<br><img src="/img/1.png" alt="图片丢失啦！"><br>如图的IP添加解析的话会出现找不到服务器IP的提示<br>解决方法：<br><img src="/img/2.png" alt="图片丢失啦！"><br>如上图我们只需要添加两条官方提供的IP解析即可<br>原理：<br>我怎么知道啊喂！！！！</p>
+            <p>在这个问题上我卡了挺久的1.5Days起码，现在网上了教程都是ping你的二级域名ip然后解析<br>我开始也是照着做了，但是有一个问题： IP在变化<br><img src="/img/loading.gif" data-original="/img/1.png" alt="图片丢失啦！"><br>如图的IP添加解析的话会出现找不到服务器IP的提示<br>解决方法：<br><img src="/img/loading.gif" data-original="/img/2.png" alt="图片丢失啦！"><br>如上图我们只需要添加两条官方提供的IP解析即可<br>原理：<br>我怎么知道啊喂！！！！</p>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
@@ -128,7 +128,12 @@
 
     </div>
 </div>
-</body>
+<script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var i=n.imageLazyLoadSetting.isSPA,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){i&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,e,a=0;a<r.length;a++)t=r[a],0<=(e=t.getBoundingClientRect()).bottom&&0<=e.left&&e.top<=(n.innerHeight||document.documentElement.clientHeight)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 
 <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 
